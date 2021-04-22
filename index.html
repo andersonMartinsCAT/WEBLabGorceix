@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta 
+        name="viewport" content="width=device-width,
+        initial-scale=1,
+        shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+
+    <title>WebLab Gorceix</title>
+  </head>
+  <body style="margin-bottom: 0px; padding: 0px;">
+
+    <div class="container-fluid">
+        <div class="row bg-dark py-2 px-5 mb-3 mt-0">
+            <ul class="nav sticky-top nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">WebLab Gorceix</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="curva.html">Curva de reação</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Controlador</a>
+                </li>
+                <li class="nav-item text-white">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+        </div>
+        <div class="row" >
+            <div class="col-2">
+                <h5>Parâmetros</h5>
+                <label for="basic-url" class="form-label">Valor inicial duty cicle</label>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">u(0)</span>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">%</span>
+                </div>
+
+                <label for="basic-url" class="form-label">Valor final duty cicle</label>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">u(inf)</span>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <span class="input-group-text" id="inputGroup-sizing-sm">%</span>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-primary btn-end">Enviar</button>
+                </div>
+
+            </div>
+            <div class="col-5">
+                <div class="row">
+                    <figure class="figure">
+                        <img src="imagens/video.PNG" class="figure-img img-fluid rounded " alt="Ao vivo">
+                    </figure>
+                </div>
+                <div class="row">
+                    <div class="btn-group p-1 m-1" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-success">Iniciar</button>
+                        <button type="button" class="btn btn-danger">Parar</button>
+                        <button type="button" class="btn btn-secondary">Baixar</button>
+                    </div>
+                    <div class="progress p-0 m-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="row">
+                    <figure class="figure">
+                        <img src="imagens/curva.PNG" class="figure-img img-fluid rounded" alt="Ao vivo">
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="figure">
+                        <img src="imagens/erro.PNG" class="figure-img img-fluid rounded" alt="Ao vivo">
+                    </figure>
+                </div>
+                <div class="row">
+                    <figure class="figure">
+                        <img src="imagens/controle.PNG" class="figure-img img-fluid rounded" alt="Ao vivo">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-dark m-0 p-2 fixed-bottom" >
+            <p class="text-center text-white-50 m-0 p-0">
+                WebLab Gorceix - 2021
+            </p>
+            <p class="text-center text-white-50 m-0 p-0">
+                Universidade Federal de Ouro Preto
+            </p>
+            <p class="text-center text-white-50 m-0 p-0">
+                Departamento de Engenharia de Controle e Automação
+            </p>
+            <p class="text-center text-white-50 m-0 p-0">
+                Desenvolvido por Anderson Martins
+            </p>
+        </div>
+    </div>
