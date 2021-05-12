@@ -10,8 +10,6 @@ const iotGateway = new IotGateway({
 
 //=========================================//
 // setEN escreve 0 ou 1 no enable
-// 
-//=========================================//
 function setEN(value){
     // Add write tags to builder.
     // [ {id:"Channel1.Device1.ValveOpen","v":1}, {"id":"Channel1.Device1.PumpSpeed","v":80}]
@@ -27,12 +25,16 @@ function setEN(value){
     //clean tags from tagsbuilder
     tagBuilder.clean();
 }
-//
-// 
+//=========================================//
+
+//=========================================//
+//inicia um experimento com tempo (ms) pré determinado 
 function experimentIit(tempo){
     setEN(1);
     setTimeout(setEN,tempo,0);
 }
-console.log(1)
-experimentIit(5000)
-console.log(2)
+//=========================================//
+
+
+
+experimentIit(60000)
